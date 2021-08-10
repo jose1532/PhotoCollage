@@ -2,7 +2,7 @@
 //  PhotoGridTests.swift
 //  PhotoGridTests
 //
-//  Created by everis on 9/08/21.
+//  Created by Nestor Silva on 9/08/21.
 //
 
 import XCTest
