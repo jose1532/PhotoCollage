@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -116,13 +116,13 @@
 		9A492DF626C1F41300433C38 /* PhotoGrid */ = {
 			isa = PBXGroup;
 			children = (
+				9A492E2726C2519C00433C38 /* UseCases */,
+				9A492E2E26C2530D00433C38 /* Model */,
+				9A492E2F26C2533100433C38 /* Provider */,
+				9A492E3126C253C700433C38 /* Util */,
+				9A492E3326C2544200433C38 /* Resources */,
 				9A492DF726C1F41300433C38 /* AppDelegate.swift */,
 				9A492DF926C1F41300433C38 /* SceneDelegate.swift */,
-				9A492DFB26C1F41300433C38 /* ViewController.swift */,
-				9A492DFD26C1F41300433C38 /* Main.storyboard */,
-				9A492E0026C1F41700433C38 /* Assets.xcassets */,
-				9A492E0226C1F41700433C38 /* LaunchScreen.storyboard */,
-				9A492E0526C1F41700433C38 /* Info.plist */,
 			);
 			path = PhotoGrid;
 			sourceTree = "<group>";
@@ -145,6 +145,110 @@
 			path = PhotoGridUITests;
 			sourceTree = "<group>";
 		};
+		9A492E2726C2519C00433C38 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				9A492E2826C251B200433C38 /* Launch */,
+				9A492E2926C251B900433C38 /* Home */,
+				9A492E2A26C251F000433C38 /* Commons */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		9A492E2826C251B200433C38 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				9A492E0226C1F41700433C38 /* LaunchScreen.storyboard */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		9A492E2926C251B900433C38 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9A492DFB26C1F41300433C38 /* ViewController.swift */,
+				9A492DFD26C1F41300433C38 /* Main.storyboard */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		9A492E2A26C251F000433C38 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				9A492E2C26C2522500433C38 /* Views */,
+				9A492E2D26C2523C00433C38 /* Rows */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		9A492E2B26C2521600433C38 /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Progress;
+			sourceTree = "<group>";
+		};
+		9A492E2C26C2522500433C38 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9A492E2B26C2521600433C38 /* Progress */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9A492E2D26C2523C00433C38 /* Rows */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Rows;
+			sourceTree = "<group>";
+		};
+		9A492E2E26C2530D00433C38 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9A492E2F26C2533100433C38 /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				9A492E3026C2533E00433C38 /* Services */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		9A492E3026C2533E00433C38 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		9A492E3126C253C700433C38 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				9A492E3226C253D400433C38 /* Extensions */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		9A492E3226C253D400433C38 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9A492E3326C2544200433C38 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9A492E0526C1F41700433C38 /* Info.plist */,
+				9A492E0026C1F41700433C38 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		E059C46BA7799AE5AE3D062E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,7 +269,6 @@
 				D6FFBD49CE7C51CF8926D539 /* Pods-PhotoGridTests.debug.xcconfig */,
 				7DE824B9D529409D27CF2DC1 /* Pods-PhotoGridTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -587,11 +690,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PhotoGrid/Info.plist;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = PhotoGrid/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.exercise.PhotoGrid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -606,11 +711,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PhotoGrid/Info.plist;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = PhotoGrid/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.exercise.PhotoGrid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
