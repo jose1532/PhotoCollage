@@ -17,6 +17,7 @@
 		9A492E0426C1F41700433C38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A492E0226C1F41700433C38 /* LaunchScreen.storyboard */; };
 		9A492E0F26C1F41700433C38 /* PhotoGridTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A492E0E26C1F41700433C38 /* PhotoGridTests.swift */; };
 		9A492E1A26C1F41700433C38 /* PhotoGridUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A492E1926C1F41700433C38 /* PhotoGridUITests.swift */; };
+		9A492E3526C2575D00433C38 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A492E3426C2575D00433C38 /* Colors.xcassets */; };
 		E2050B3A0433EA130BE6CC6F /* Pods_PhotoGrid_PhotoGridUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65D92F0A9101FA97E0F2E977 /* Pods_PhotoGrid_PhotoGridUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +59,7 @@
 		9A492E1526C1F41700433C38 /* PhotoGridUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoGridUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A492E1926C1F41700433C38 /* PhotoGridUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGridUITests.swift; sourceTree = "<group>"; };
 		9A492E1B26C1F41700433C38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A492E3426C2575D00433C38 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		B8041453837C981A3B9A246E /* Pods-PhotoGrid-PhotoGridUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoGrid-PhotoGridUITests.debug.xcconfig"; path = "Target Support Files/Pods-PhotoGrid-PhotoGridUITests/Pods-PhotoGrid-PhotoGridUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D6FFBD49CE7C51CF8926D539 /* Pods-PhotoGridTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoGridTests.debug.xcconfig"; path = "Target Support Files/Pods-PhotoGridTests/Pods-PhotoGridTests.debug.xcconfig"; sourceTree = "<group>"; };
 		EEA6D887CE9D8317CE9024DE /* Pods-PhotoGrid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoGrid.release.xcconfig"; path = "Target Support Files/Pods-PhotoGrid/Pods-PhotoGrid.release.xcconfig"; sourceTree = "<group>"; };
@@ -245,6 +247,7 @@
 			children = (
 				9A492E0526C1F41700433C38 /* Info.plist */,
 				9A492E0026C1F41700433C38 /* Assets.xcassets */,
+				9A492E3426C2575D00433C38 /* Colors.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -381,6 +384,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A492E0426C1F41700433C38 /* LaunchScreen.storyboard in Resources */,
+				9A492E3526C2575D00433C38 /* Colors.xcassets in Resources */,
 				9A492E0126C1F41700433C38 /* Assets.xcassets in Resources */,
 				9A492DFF26C1F41300433C38 /* Main.storyboard in Resources */,
 			);
