@@ -21,7 +21,8 @@ struct Superhero: Codable {
 
 // MARK: - Appearance
 struct Appearance: Codable {
-    let gender, race: String
+    let gender: String
+    let race: String?
     let height, weight: [String]
     let eyeColor, hairColor: String
 }

@@ -7,7 +7,7 @@ target 'PhotoGrid' do
 
   pod 'Alamofire', '~> 5.2'
   pod 'Kingfisher', '~> 6.0'
-  
+  pod 'ProgressHUD'
 
   # Pods for PhotoGrid
 

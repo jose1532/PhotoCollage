@@ -19,6 +19,14 @@
 		9A492E1A26C1F41700433C38 /* PhotoGridUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A492E1926C1F41700433C38 /* PhotoGridUITests.swift */; };
 		9A492E3526C2575D00433C38 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A492E3426C2575D00433C38 /* Colors.xcassets */; };
 		9A492E3726C25FB600433C38 /* Superhero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A492E3626C25FB600433C38 /* Superhero.swift */; };
+		9A492E3A26C269B200433C38 /* HeroViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A492E3826C269B200433C38 /* HeroViewCell.swift */; };
+		9A492E3B26C269B200433C38 /* HeroViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A492E3926C269B200433C38 /* HeroViewCell.xib */; };
+		9A492E3D26C36B2A00433C38 /* UIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A492E3C26C36B2A00433C38 /* UIConstants.swift */; };
+		9A492E3F26C36D1100433C38 /* NetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A492E3E26C36D1100433C38 /* NetworkConstants.swift */; };
+		9A492E4126C36F6F00433C38 /* RestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A492E4026C36F6F00433C38 /* RestAPI.swift */; };
+		9A492E4426C373C300433C38 /* HeroesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A492E4326C373C300433C38 /* HeroesRepository.swift */; };
+		9A492E4626C41FA200433C38 /* UICollectionView+EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A492E4526C41FA200433C38 /* UICollectionView+EmptyState.swift */; };
+		9A492E4826C4211A00433C38 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A492E4726C4211A00433C38 /* Constants.swift */; };
 		E2050B3A0433EA130BE6CC6F /* Pods_PhotoGrid_PhotoGridUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65D92F0A9101FA97E0F2E977 /* Pods_PhotoGrid_PhotoGridUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +70,14 @@
 		9A492E1B26C1F41700433C38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A492E3426C2575D00433C38 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		9A492E3626C25FB600433C38 /* Superhero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Superhero.swift; sourceTree = "<group>"; };
+		9A492E3826C269B200433C38 /* HeroViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroViewCell.swift; sourceTree = "<group>"; };
+		9A492E3926C269B200433C38 /* HeroViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeroViewCell.xib; sourceTree = "<group>"; };
+		9A492E3C26C36B2A00433C38 /* UIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIConstants.swift; sourceTree = "<group>"; };
+		9A492E3E26C36D1100433C38 /* NetworkConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConstants.swift; sourceTree = "<group>"; };
+		9A492E4026C36F6F00433C38 /* RestAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestAPI.swift; sourceTree = "<group>"; };
+		9A492E4326C373C300433C38 /* HeroesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesRepository.swift; sourceTree = "<group>"; };
+		9A492E4526C41FA200433C38 /* UICollectionView+EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+EmptyState.swift"; sourceTree = "<group>"; };
+		9A492E4726C4211A00433C38 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		B8041453837C981A3B9A246E /* Pods-PhotoGrid-PhotoGridUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoGrid-PhotoGridUITests.debug.xcconfig"; path = "Target Support Files/Pods-PhotoGrid-PhotoGridUITests/Pods-PhotoGrid-PhotoGridUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D6FFBD49CE7C51CF8926D539 /* Pods-PhotoGridTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoGridTests.debug.xcconfig"; path = "Target Support Files/Pods-PhotoGridTests/Pods-PhotoGridTests.debug.xcconfig"; sourceTree = "<group>"; };
 		EEA6D887CE9D8317CE9024DE /* Pods-PhotoGrid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoGrid.release.xcconfig"; path = "Target Support Files/Pods-PhotoGrid/Pods-PhotoGrid.release.xcconfig"; sourceTree = "<group>"; };
@@ -122,7 +138,7 @@
 			children = (
 				9A492E2726C2519C00433C38 /* UseCases */,
 				9A492E2E26C2530D00433C38 /* Model */,
-				9A492E2F26C2533100433C38 /* Provider */,
+				9A492E2F26C2533100433C38 /* Network */,
 				9A492E3126C253C700433C38 /* Util */,
 				9A492E3326C2544200433C38 /* Resources */,
 				9A492DF726C1F41300433C38 /* AppDelegate.swift */,
@@ -203,6 +219,8 @@
 		9A492E2D26C2523C00433C38 /* Rows */ = {
 			isa = PBXGroup;
 			children = (
+				9A492E3826C269B200433C38 /* HeroViewCell.swift */,
+				9A492E3926C269B200433C38 /* HeroViewCell.xib */,
 			);
 			path = Rows;
 			sourceTree = "<group>";
@@ -215,17 +233,20 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		9A492E2F26C2533100433C38 /* Provider */ = {
+		9A492E2F26C2533100433C38 /* Network */ = {
 			isa = PBXGroup;
 			children = (
 				9A492E3026C2533E00433C38 /* Services */,
+				9A492E4226C373AA00433C38 /* Repository */,
+				9A492E3E26C36D1100433C38 /* NetworkConstants.swift */,
 			);
-			path = Provider;
+			path = Network;
 			sourceTree = "<group>";
 		};
 		9A492E3026C2533E00433C38 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				9A492E4026C36F6F00433C38 /* RestAPI.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -234,6 +255,8 @@
 			isa = PBXGroup;
 			children = (
 				9A492E3226C253D400433C38 /* Extensions */,
+				9A492E3C26C36B2A00433C38 /* UIConstants.swift */,
+				9A492E4726C4211A00433C38 /* Constants.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -241,6 +264,7 @@
 		9A492E3226C253D400433C38 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				9A492E4526C41FA200433C38 /* UICollectionView+EmptyState.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -253,6 +277,14 @@
 				9A492E3426C2575D00433C38 /* Colors.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		9A492E4226C373AA00433C38 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				9A492E4326C373C300433C38 /* HeroesRepository.swift */,
+			);
+			path = Repository;
 			sourceTree = "<group>";
 		};
 		E059C46BA7799AE5AE3D062E /* Frameworks */ = {
@@ -389,6 +421,7 @@
 				9A492E0426C1F41700433C38 /* LaunchScreen.storyboard in Resources */,
 				9A492E3526C2575D00433C38 /* Colors.xcassets in Resources */,
 				9A492E0126C1F41700433C38 /* Assets.xcassets in Resources */,
+				9A492E3B26C269B200433C38 /* HeroViewCell.xib in Resources */,
 				9A492DFF26C1F41300433C38 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -517,10 +550,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A492E4626C41FA200433C38 /* UICollectionView+EmptyState.swift in Sources */,
+				9A492E4826C4211A00433C38 /* Constants.swift in Sources */,
+				9A492E4126C36F6F00433C38 /* RestAPI.swift in Sources */,
+				9A492E4426C373C300433C38 /* HeroesRepository.swift in Sources */,
+				9A492E3F26C36D1100433C38 /* NetworkConstants.swift in Sources */,
 				9A492DFC26C1F41300433C38 /* ViewController.swift in Sources */,
 				9A492DF826C1F41300433C38 /* AppDelegate.swift in Sources */,
 				9A492DFA26C1F41300433C38 /* SceneDelegate.swift in Sources */,
 				9A492E3726C25FB600433C38 /* Superhero.swift in Sources */,
+				9A492E3A26C269B200433C38 /* HeroViewCell.swift in Sources */,
+				9A492E3D26C36B2A00433C38 /* UIConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
